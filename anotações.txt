@@ -62,8 +62,38 @@ conversão de tipos
                  https://nodejs.org/api/console.html
 
 
+********
 
 
+Operadores de comparação
+
+         "==" não comprara o tipo da variavel
+                comparação implicita
+
+         "==="  compara o tipo de variavel
+                comparação explicita
+
+
+     exemplo
+         const numerto = 5;
+         const texto   = "5";
+
+         console.log(numero == texto)
+            ==> resultado "TRUE"
+
+         console.log(numero === texto)
+            ==> resultado "FALSE"
+
+
+         console.log(typeof numero)
+            ==> resultado "NUMBER"
+
+         console.log(typeof texto)
+            ==> resultado "STRING"
+
+
+          A documentação do MDN sobre operadores tem a lista completa
+          https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
 
 
 
