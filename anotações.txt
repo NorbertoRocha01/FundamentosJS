@@ -55,6 +55,13 @@ conversão de tipos
                     numerostring em numerica
              ==>> resultado erro "NaN"
 
+********
+
+      comando CONSOLE
+          ==>> documentação no NODE.js 
+                 https://nodejs.org/api/console.html
+
+
 
 
 
