@@ -1,0 +1,18 @@
+
+*******
+https://cursos.alura.com.br/category/programacao/javascript-programacao
+*******
+
+
+
+Tipos de Dados
+
+
+Variaveis
+
+
+NODEJs
+
+
+
+Operadores
