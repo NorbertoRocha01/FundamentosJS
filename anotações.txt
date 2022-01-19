@@ -1,0 +1,64 @@
+Definições de variaveis
+
+
+-->> var 
+
+exemplo 
+
+    var altura =5;
+    var comprimento = 7;
+
+
+-->> let 
+
+exemplo 
+
+    let altura =5;
+    let comprimento = 7;
+
+
+-->> const
+     ==>> os valores da const não podem ser alterados, 
+             nem o seu tipo
+
+exemplo 
+
+    const forma='triangulo';
+    const altura =5;
+    const comprimento = 7;
+
+**********
+
+conversão de tipos
+
+     const numero = 456;
+     const numerostring = "456";
+
+       console.log(numero = numerostring);
+             ==>> resultado FALSE
+
+       console.log(numero == numerostring);
+             ==>> resultado TRUE
+
+       console.log(numero + numerostring);
+             ==>> resultado "456456"
+
+
+       console.log(numero + Number(numerostring));
+              Opcao NUMBER transforma a variavel numerostring 
+                    em numerica
+             ==>> resultado "912"
+
+
+       const numerostring = Number("456a");
+              Opcao NUMBER tenta transformar a variavel 
+                    numerostring em numerica
+             ==>> resultado erro "NaN"
+
+
+
+
+
+
+
+
